@@ -1,0 +1,24 @@
+
+.wraper_Option{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+}
+.Wrapper_item{
+    position: relative;
+    padding: 12px 16px;
+    // color: red;
+}
+.Wrapper_item:hover ~ .Option_children{
+   display: block;
+   color:red
+}
+.Option_children{
+    position: absolute;
+    display: none;  
+}

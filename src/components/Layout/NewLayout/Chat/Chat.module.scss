@@ -1,0 +1,146 @@
+
+.wrapp_edit{
+    margin: 0 8px;
+}
+.WrapInputChat{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 60px;
+    border: 1px solid #333;
+    border-radius: 8px;
+}
+.wrapp_edit{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.send{
+    width: 100%;
+    border: none;
+    outline: none;
+
+}
+.iconInput{
+    margin-top: 22px;
+    font-size: 1.8rem;
+    color: #9b9898;
+}
+
+// ----------------------------------------------------------------
+
+.optionMessage{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    height: 39px;
+    margin-top: 18px;
+    border-bottom: 1px solid #e6e4e4;
+    padding: 0;
+}
+.separate {
+    padding: 0 8px;
+    font-weight: 600;
+}
+// ================================================================
+
+.WrapMessage{
+    margin-top: 16px;
+}
+.EditMessage{
+    padding-left: 0;
+}
+.ContainerMessage{
+    display: flex;
+}
+.containerAvatar{
+    width: 36px;
+    height: 36px;
+}
+.avatarUser{
+    width: 40px;
+    height: 40px;
+    border-radius: 80px;
+}
+.WrapUserMessager{
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+}
+.User{
+    padding: 0 10px 0 16px;
+    width: 120px;
+    margin: 0;
+    // text-align: start;
+
+}
+.MessageUser{
+    min-height: 20px;
+    // flex-wrap: wrap;
+    display: flex;
+  
+    width: 100%;
+    line-height: 24px;
+    // word-break: break-all;
+}
+.wrapOptionMessage{
+    display: flex;
+    padding-top: 11px;
+    margin-left: 16px;
+    justify-content: start;
+    align-items: center;
+    font-size: 1.6rem;
+}
+.LikeMessager{
+    margin-left: 8px;
+    margin-bottom: 0;
+}
+.optionContact{
+    margin: 0 8px;
+}
+.Post{
+ display: flex;
+ justify-content: end;
+}
+.btnSend{
+    margin-top: 30px;
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    background-color: #C92A57;
+    color: white
+}
+.sua{
+    font-size: 1.5rem;
+    margin-bottom: 1px;
+    font-weight: 500;
+    border: none;
+    background-color: #fff;
+}
+.xoa{
+    font-size: 1.5rem;
+    margin-bottom: 1px;
+    margin-left: 8px;
+    font-weight: 500;
+    border: none;
+    background-color: #fff;
+}
+.sua:hover{
+    opacity: 80%;
+    color:#C92A57;
+    cursor:pointer;
+}
+.xoa:hover{
+    opacity: 80%;
+    color:#C92A57;
+    cursor:pointer;
+}
+.none{
+    display: none;
+}
+.red{
+    background-color: red;
+}

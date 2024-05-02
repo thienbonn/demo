@@ -1,0 +1,46 @@
+
+.wraper_OptionTwo{
+    display: flex;
+    width: 1130px;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 0;
+    height: 100%;
+    padding-left: 0;
+
+}
+.Wrap_item{
+    position: relative;
+    padding: 12px 16px;
+    // color: red;
+}
+
+.Wrapper_item:hover ~ .Option_children{
+   display: block;
+   color:red
+}
+
+.itemTwo{
+    font-size: 1.4rem;  
+    padding: 0 12px;
+}
+.itemTwo:first-child{
+    font-size: 1.6rem;  
+    padding: 0 18px;
+    font-weight: 600;
+    position: relative;
+}
+.itemTwo:first-child ::after{
+    content: "";
+    display: block;
+    position: absolute;
+    border-right: 1px solid #e6e4e4;
+    height: 16px;
+    top: 4px;
+    right: 0;
+}
+.Option_children{
+    position: absolute;
+    display: none;  
+}
+
